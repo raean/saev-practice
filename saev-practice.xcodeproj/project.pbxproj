@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CDEE4B87221C8ADB00F708C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE4B86221C8ADB00F708C9 /* AppDelegate.swift */; };
-		CDEE4B89221C8ADB00F708C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE4B88221C8ADB00F708C9 /* ViewController.swift */; };
 		CDEE4B8C221C8ADB00F708C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEE4B8A221C8ADB00F708C9 /* Main.storyboard */; };
 		CDEE4B8F221C8ADB00F708C9 /* saev_practice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDEE4B8D221C8ADB00F708C9 /* saev_practice.xcdatamodeld */; };
 		CDEE4B91221C8ADD00F708C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDEE4B90221C8ADD00F708C9 /* Assets.xcassets */; };
 		CDEE4B94221C8ADD00F708C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEE4B92221C8ADD00F708C9 /* LaunchScreen.storyboard */; };
 		CDEE4B9F221C8ADD00F708C9 /* saev_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE4B9E221C8ADD00F708C9 /* saev_practiceTests.swift */; };
 		CDEE4BAA221C8ADD00F708C9 /* saev_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE4BA9221C8ADD00F708C9 /* saev_practiceUITests.swift */; };
+		CDEE4BB8221C8B9300F708C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE4BB7221C8B9300F708C9 /* LoginViewController.swift */; };
+		CDEE4BBA221C90C100F708C9 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE4BB9221C90C100F708C9 /* MainTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 /* Begin PBXFileReference section */
 		CDEE4B83221C8ADB00F708C9 /* saev-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "saev-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDEE4B86221C8ADB00F708C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDEE4B88221C8ADB00F708C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDEE4B8B221C8ADB00F708C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDEE4B8E221C8ADB00F708C9 /* saev_practice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = saev_practice.xcdatamodel; sourceTree = "<group>"; };
 		CDEE4B90221C8ADD00F708C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		CDEE4BA5221C8ADD00F708C9 /* saev-practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "saev-practiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDEE4BA9221C8ADD00F708C9 /* saev_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saev_practiceUITests.swift; sourceTree = "<group>"; };
 		CDEE4BAB221C8ADD00F708C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDEE4BB7221C8B9300F708C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CDEE4BB9221C90C100F708C9 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,10 @@
 		CDEE4B85221C8ADB00F708C9 /* saev-practice */ = {
 			isa = PBXGroup;
 			children = (
+				CDEE4BB7221C8B9300F708C9 /* LoginViewController.swift */,
 				CDEE4B86221C8ADB00F708C9 /* AppDelegate.swift */,
-				CDEE4B88221C8ADB00F708C9 /* ViewController.swift */,
 				CDEE4B8A221C8ADB00F708C9 /* Main.storyboard */,
+				CDEE4BB9221C90C100F708C9 /* MainTabController.swift */,
 				CDEE4B90221C8ADD00F708C9 /* Assets.xcassets */,
 				CDEE4B92221C8ADD00F708C9 /* LaunchScreen.storyboard */,
 				CDEE4B95221C8ADD00F708C9 /* Info.plist */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDEE4B89221C8ADB00F708C9 /* ViewController.swift in Sources */,
+				CDEE4BB8221C8B9300F708C9 /* LoginViewController.swift in Sources */,
 				CDEE4B87221C8ADB00F708C9 /* AppDelegate.swift in Sources */,
+				CDEE4BBA221C90C100F708C9 /* MainTabController.swift in Sources */,
 				CDEE4B8F221C8ADB00F708C9 /* saev_practice.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
